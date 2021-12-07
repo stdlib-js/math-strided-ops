@@ -38,6 +38,7 @@
   "dependencies": {
     "@stdlib/math-strided-ops-add": "^0.0.x",
     "@stdlib/math-strided-ops-mul": "^0.0.x",
+    "@stdlib/math-strided-ops-sub": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
@@ -58,7 +59,10 @@
     "@stdlib/math-base-ops-caddf": "^0.0.x",
     "@stdlib/math-base-ops-cmul": "^0.0.x",
     "@stdlib/math-base-ops-cmulf": "^0.0.x",
+    "@stdlib/math-base-ops-csub": "^0.0.x",
+    "@stdlib/math-base-ops-csubf": "^0.0.x",
     "@stdlib/math-base-ops-mul": "^0.0.x",
+    "@stdlib/math-base-ops-sub": "^0.0.x",
     "@stdlib/math-base-special-pow": "^0.0.x",
     "@stdlib/ndarray-base-char2dtype": "^0.0.x",
     "@stdlib/ndarray-base-dtype-char": "^0.0.x",
