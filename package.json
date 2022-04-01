@@ -1,0 +1,39 @@
+{
+  "name": "@stdlib/math-strided-ops",
+  "version": "0.0.0",
+  "description": "Strided array math operations.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-strided-ops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "vector",
+    "array",
+    "strided",
+    "ndarray",
+    "element-wise",
+    "elementwise",
+    "math",
+    "mathematics",
+    "ops",
+    "operations",
+    "arithmetic"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
