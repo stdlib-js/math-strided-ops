@@ -24,32 +24,30 @@ limitations under the License.
 
 > Strided array math operations.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-strided-ops
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/math-strided-ops' );
 ```
 
 #### ns
@@ -79,21 +77,11 @@ The namespace contains the following strided array functions:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/math-strided-ops' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -147,8 +135,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-strided-ops.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-strided-ops
 
-[test-image]: https://github.com/stdlib-js/math-strided-ops/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/math-strided-ops/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/math-strided-ops/actions/workflows/test.yml/badge.svg?branch=v0.0.2
+[test-url]: https://github.com/stdlib-js/math-strided-ops/actions/workflows/test.yml?query=branch:v0.0.2
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-strided-ops/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-strided-ops?branch=main
@@ -173,6 +161,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/math-strided-ops/tree/deno
 [umd-url]: https://github.com/stdlib-js/math-strided-ops/tree/umd
 [esm-url]: https://github.com/stdlib-js/math-strided-ops/tree/esm
+[branches-url]: https://github.com/stdlib-js/math-strided-ops/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-strided-ops/main/LICENSE
 
