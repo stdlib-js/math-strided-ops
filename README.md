@@ -63,6 +63,14 @@ The namespace contains the following strided array functions:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`add( N, dtypeX, x, strideX, dtypeY, y, strideY, dtypeZ, z, strideZ )`][@stdlib/math/strided/ops/add]</span><span class="delimiter">: </span><span class="description">element-wise addition of two strided arrays.</span>
+-   <span class="signature">[`mul( N, dtypeX, x, strideX, dtypeY, y, strideY, dtypeZ, z, strideZ )`][@stdlib/math/strided/ops/mul]</span><span class="delimiter">: </span><span class="description">element-wise multiplication of two strided arrays.</span>
+-   <span class="signature">[`sub( N, dtypeX, x, strideX, dtypeY, y, strideY, dtypeZ, z, strideZ )`][@stdlib/math/strided/ops/sub]</span><span class="delimiter">: </span><span class="description">element-wise subtraction of two strided arrays.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -135,8 +143,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-strided-ops.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-strided-ops
 
-[test-image]: https://github.com/stdlib-js/math-strided-ops/actions/workflows/test.yml/badge.svg?branch=v0.0.2
-[test-url]: https://github.com/stdlib-js/math-strided-ops/actions/workflows/test.yml?query=branch:v0.0.2
+[test-image]: https://github.com/stdlib-js/math-strided-ops/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-strided-ops/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-strided-ops/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-strided-ops?branch=main
@@ -164,6 +172,16 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/math-strided-ops/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-strided-ops/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/math/strided/ops/add]: https://github.com/stdlib-js/math-strided-ops-add
+
+[@stdlib/math/strided/ops/mul]: https://github.com/stdlib-js/math-strided-ops-mul
+
+[@stdlib/math/strided/ops/sub]: https://github.com/stdlib-js/math-strided-ops-sub
+
+<!-- </toc-links> -->
 
 </section>
 
