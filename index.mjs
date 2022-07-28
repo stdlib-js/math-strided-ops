@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import s from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-only-property@esm/index.mjs";import d from"https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-add@v0.0.2-esm/index.mjs";export{default as add}from"https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-add@v0.0.2-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-mul@v0.0.2-esm/index.mjs";export{default as mul}from"https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-mul@v0.0.2-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@v0.0.2-esm/index.mjs";export{default as sub}from"https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-sub@v0.0.2-esm/index.mjs";var m={};s(m,"add",d),s(m,"mul",t),s(m,"sub",e);export{m as default};
+//# sourceMappingURL=index.mjs.map
