@@ -81,6 +81,7 @@
     "@stdlib/strided-dtypes": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",
     "@stdlib/string-uppercase": "^0.0.x",
+    "@stdlib/time-current-year": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "@stdlib/utils-keys": "^0.0.x",
     "@stdlib/utils-try-require": "^0.0.x",
