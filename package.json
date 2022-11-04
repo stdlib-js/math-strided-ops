@@ -3,30 +3,7 @@
   "version": "0.0.2",
   "description": "Strided array math operations.",
   "license": "Apache-2.0",
-  "author": {
-    "name": "The Stdlib Authors",
-    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-  },
-  "contributors": [
-    {
-      "name": "The Stdlib Authors",
-      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-    }
-  ],
-  "main": "./lib",
-  "directories": {
-    "doc": "./docs",
-    "example": "./examples",
-    "lib": "./lib",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples",
-    "benchmark": "make benchmark"
-  },
+  "main": "./index.js",
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -35,77 +12,6 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {
-    "@stdlib/math-strided-ops-add": "^0.0.x",
-    "@stdlib/math-strided-ops-mul": "^0.0.x",
-    "@stdlib/math-strided-ops-sub": "^0.0.x",
-    "@stdlib/utils-define-read-only-property": "^0.0.x",
-    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
-  },
-  "devDependencies": {
-    "@stdlib/array-complex128": "^0.0.x",
-    "@stdlib/array-complex64": "^0.0.x",
-    "@stdlib/array-filled": "^0.0.x",
-    "@stdlib/array-filled-by": "^0.0.x",
-    "@stdlib/array-float64": "^0.0.x",
-    "@stdlib/array-uint8": "^0.0.x",
-    "@stdlib/assert-contains": "^0.0.x",
-    "@stdlib/assert-is-browser": "^0.0.x",
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/fs-read-file": "^0.0.x",
-    "@stdlib/fs-write-file": "^0.0.x",
-    "@stdlib/math-base-assert-is-nan": "^0.0.x",
-    "@stdlib/math-base-ops-add": "^0.0.x",
-    "@stdlib/math-base-ops-cadd": "^0.0.x",
-    "@stdlib/math-base-ops-caddf": "^0.0.x",
-    "@stdlib/math-base-ops-cmul": "^0.0.x",
-    "@stdlib/math-base-ops-cmulf": "^0.0.x",
-    "@stdlib/math-base-ops-csub": "^0.0.x",
-    "@stdlib/math-base-ops-csubf": "^0.0.x",
-    "@stdlib/math-base-ops-mul": "^0.0.x",
-    "@stdlib/math-base-ops-sub": "^0.0.x",
-    "@stdlib/math-base-special-pow": "^0.0.x",
-    "@stdlib/ndarray-base-char2dtype": "^0.0.x",
-    "@stdlib/ndarray-base-dtype-char": "^0.0.x",
-    "@stdlib/ndarray-base-dtypes2signatures": "^0.0.x",
-    "@stdlib/number-float64-base-to-float32": "^0.0.x",
-    "@stdlib/random-base-discrete-uniform": "^0.0.x",
-    "@stdlib/random-base-uniform": "^0.0.x",
-    "@stdlib/strided-base-binary": "^0.0.x",
-    "@stdlib/strided-base-binary-addon-dispatch": "^0.0.x",
-    "@stdlib/strided-base-binary-dtype-signatures": "^0.0.x",
-    "@stdlib/strided-base-binary-signature-callbacks": "^0.0.x",
-    "@stdlib/strided-base-dtype-resolve-enum": "^0.0.x",
-    "@stdlib/strided-base-dtype-resolve-str": "^0.0.x",
-    "@stdlib/strided-base-meta-data-props": "^0.0.x",
-    "@stdlib/strided-dispatch": "^0.0.x",
-    "@stdlib/strided-dtypes": "^0.0.x",
-    "@stdlib/string-replace": "^0.0.x",
-    "@stdlib/string-uppercase": "^0.0.x",
-    "@stdlib/time-current-year": "^0.0.x",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
-    "@stdlib/utils-keys": "^0.0.x",
-    "@stdlib/utils-try-require": "^0.0.x",
-    "proxyquire": "^2.0.0",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
-    "istanbul": "^0.4.1",
-    "tap-spec": "5.x.x"
-  },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "stdmath",
