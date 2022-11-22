@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/math-strided-ops-add": "^0.0.x",
+    "@stdlib/math-strided-ops-add-by": "^0.0.x",
     "@stdlib/math-strided-ops-mul": "^0.0.x",
     "@stdlib/math-strided-ops-sub": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x"
@@ -76,6 +77,7 @@
     "@stdlib/strided-base-binary-signature-callbacks": "^0.0.x",
     "@stdlib/strided-base-dtype-resolve-enum": "^0.0.x",
     "@stdlib/strided-base-dtype-resolve-str": "^0.0.x",
+    "@stdlib/strided-base-map-by2": "^0.0.x",
     "@stdlib/strided-base-meta-data-props": "^0.0.x",
     "@stdlib/strided-dispatch": "^0.0.x",
     "@stdlib/strided-dtypes": "^0.0.x",
