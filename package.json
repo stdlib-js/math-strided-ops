@@ -39,7 +39,9 @@
     "@stdlib/math-strided-ops-add": "^0.0.x",
     "@stdlib/math-strided-ops-add-by": "^0.0.x",
     "@stdlib/math-strided-ops-mul": "^0.0.x",
+    "@stdlib/math-strided-ops-mul-by": "^0.0.x",
     "@stdlib/math-strided-ops-sub": "^0.0.x",
+    "@stdlib/math-strided-ops-sub-by": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
