@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-strided-ops-add": "^0.0.2",
+    "@stdlib/math-strided-ops-add": "^0.1.0",
     "@stdlib/math-strided-ops-add-by": "^0.1.0",
-    "@stdlib/math-strided-ops-mul": "^0.0.2",
+    "@stdlib/math-strided-ops-mul": "^0.1.0",
     "@stdlib/math-strided-ops-mul-by": "^0.1.0",
     "@stdlib/math-strided-ops-sub": "^0.1.0",
     "@stdlib/math-strided-ops-sub-by": "^0.1.0",
@@ -48,8 +48,8 @@
   "devDependencies": {
     "@stdlib/array-complex128": "^0.1.0",
     "@stdlib/array-complex64": "^0.1.0",
-    "@stdlib/array-filled": "^0.0.6",
-    "@stdlib/array-filled-by": "^0.0.2",
+    "@stdlib/array-filled": "^0.1.0",
+    "@stdlib/array-filled-by": "^0.1.0",
     "@stdlib/array-float64": "^0.1.0",
     "@stdlib/array-uint8": "^0.1.0",
     "@stdlib/assert-contains": "^0.1.0",
@@ -72,8 +72,8 @@
     "@stdlib/ndarray-base-dtype-char": "^0.1.0",
     "@stdlib/ndarray-base-dtypes2signatures": "^0.1.0",
     "@stdlib/number-float64-base-to-float32": "^0.1.0",
-    "@stdlib/random-base-discrete-uniform": "^0.0.6",
-    "@stdlib/random-base-uniform": "^0.0.6",
+    "@stdlib/random-base-discrete-uniform": "^0.1.0",
+    "@stdlib/random-base-uniform": "^0.1.0",
     "@stdlib/strided-base-binary": "^0.1.0",
     "@stdlib/strided-base-binary-addon-dispatch": "^0.1.0",
     "@stdlib/strided-base-binary-dtype-signatures": "^0.1.0",
