@@ -43,7 +43,8 @@
     "@stdlib/math-strided-ops-mul-by": "^0.1.0",
     "@stdlib/math-strided-ops-sub": "^0.1.0",
     "@stdlib/math-strided-ops-sub-by": "^0.1.0",
-    "@stdlib/utils-define-read-only-property": "^0.1.1"
+    "@stdlib/utils-define-read-only-property": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-complex128": "^0.1.0",
