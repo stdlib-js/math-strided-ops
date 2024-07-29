@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { add, addBy, mul, mulBy, sub, subBy } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@deno/mod.js';
+import { add, addBy, mul, mulBy, sub, subBy } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@v0.2.2-deno/mod.js';
 ```
 
 #### ns
@@ -91,7 +91,7 @@ The namespace contains the following strided array functions:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@v0.2.2-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
