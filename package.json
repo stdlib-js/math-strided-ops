@@ -37,17 +37,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-strided-ops-add": "^0.2.1",
+    "@stdlib/math-strided-ops-add": "^0.2.2",
     "@stdlib/math-strided-ops-add-by": "^0.2.2",
-    "@stdlib/math-strided-ops-mul": "^0.2.1",
+    "@stdlib/math-strided-ops-mul": "^0.2.2",
     "@stdlib/math-strided-ops-mul-by": "^0.2.2",
     "@stdlib/math-strided-ops-sub": "^0.2.2",
     "@stdlib/math-strided-ops-sub-by": "^0.2.2",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-complex128": "^0.2.1",
-    "@stdlib/array-complex64": "^0.2.1",
+    "@stdlib/array-complex128": "^0.3.0",
+    "@stdlib/array-complex64": "^0.3.0",
     "@stdlib/array-filled": "^0.2.1",
     "@stdlib/array-filled-by": "^0.2.1",
     "@stdlib/array-float64": "^0.2.2",
