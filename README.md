@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-strided-ops/tags). For example,
+
+```javascript
 ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@v0.2.4-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var ns = require( 'path/to/vendor/umd/math-strided-ops/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@v0.2.4-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -112,7 +117,7 @@ The namespace contains the following strided array functions:
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@v0.2.4-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
