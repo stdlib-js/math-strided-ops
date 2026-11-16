@@ -83,7 +83,7 @@
     "@stdlib/strided-base-meta-data-props": "^0.2.3",
     "@stdlib/strided-dispatch": "^0.2.3",
     "@stdlib/strided-dtypes": "^0.3.1",
-    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3",
     "@stdlib/string-replace": "^0.2.3",
     "@stdlib/string-uppercase": "^0.3.1",
     "@stdlib/time-current-year": "^0.2.3",
